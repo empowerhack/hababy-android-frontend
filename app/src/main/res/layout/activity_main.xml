@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:padding="5dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Are you:"
+        android:id="@+id/textView3"
+        android:textColor="#87cdeb"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:textIsSelectable="true"
+        android:layout_gravity="center"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="43dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pregnant/Assisting a Pregnant lady"
+        android:id="@+id/user_type_button_pregnant"
+        android:height="90dp"
+        android:textColor="#ffffff"
+        android:importantForAccessibility="yes"
+        android:layout_gravity="top"
+        android:textSize="22dp"
+        android:layout_centerVertical="true"
+        android:layout_alignStart="@+id/button"
+        android:clickable="true"
+        android:enabled="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="a Healthcare Professional"
+        android:id="@+id/user_type_button_healthcare"
+        android:textColor="#ffffff"
+        android:height="90dp"
+        android:singleLine="false"
+        android:textSize="22dp"
+        android:layout_below="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_alignEnd="@+id/button" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="a Specialist"
+        android:id="@+id/button"
+        android:height="90dp"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:textSize="22dp"
+        android:layout_below="@+id/user_type_button_pregnant"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:textColor="#ffffff"
+        android:background="#88878D"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="العربية"
+        android:id="@+id/button2"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/button3"
+        android:padding="8dp" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:textColor="#ffffff"
+        android:background="#373738"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="English"
+        android:id="@+id/button3"
+        android:clickable="true"
+        android:enabled="true"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:padding="8dp" />
+
+</RelativeLayout>
