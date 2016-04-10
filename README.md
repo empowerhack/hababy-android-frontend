@@ -9,6 +9,14 @@ This project was started at EmpowerHack 2015 in November. A first draft of an an
 
 The project was then picked up by a new team at EmpowerHack 2016 in April, who redesigned the app by creating personas, storyboards, and prototypes (the digital prototype is included in this repository). The team also started on a new native Android application, which can be found in this repository. In the future, the team would like to combine the old and new apps. 
 
+## Wish list
+Fully functioning Android App with:
+- All content in multiple languages (at least English and Arabic)
+- User flow which is consistent with what is desribed in the documents in the Google Drive, both for:
+  - refugees
+  - health carers
+- A find clinic feature, showing the user health clinics nearby
+
 ## Contributing
 
 1. Fork it!
