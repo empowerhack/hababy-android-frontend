@@ -7,10 +7,10 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity"
-    android:padding="5dp">
+    tools:context="com.example.robin.myapplication.HomeActivity"
+    tools:showIn="@layout/activity_home">
 
-    <!--<Button
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="I am pregnant/Assisting a pregnant woman"
@@ -64,8 +64,8 @@
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
         android:padding="8dp"
-        android:layout_alignBaseline="@+id/button_english"
-        android:layout_alignBottom="@+id/button_english"
+        android:layout_marginTop="43dp"
+        android:layout_alignParentTop="true"
         android:layout_toStartOf="@+id/button_english" />
 
     <Button
@@ -82,8 +82,8 @@
         android:textSize="20dp"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:padding="8dp" />-->
+        android:padding="8dp"
+        android:layout_alignTop="@+id/button_arabic"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

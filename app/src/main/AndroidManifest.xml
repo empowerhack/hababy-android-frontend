@@ -16,8 +16,62 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".questionnaire"
-            android:label="@string/title_activity_questionnaire"
+            android:name=".PregnantActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SpecialistActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".HealthcareActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".NormalDoctorActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".HealthcareActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.HealthcareActivity" />
+        </activity>
+        <activity
+            android:name=".NotAcceptedLegalDisclaimerActivity"
+            android:label="@string/app_name"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.MainActivity" />
+        </activity>
+        <activity
+            android:name=".PregnantQuestionsActivity"
+            android:label="@string/title_activity_pregnant_questions"
+            android:parentActivityName=".PregnantActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.robin.myapplication.PregnantActivity" />
+        </activity>
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
