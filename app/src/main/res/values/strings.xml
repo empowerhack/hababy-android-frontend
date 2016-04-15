@@ -2,4 +2,18 @@
     <string name="app_name">Hababy</string>
     <string name="hababy">Hababy</string>
     <string name="title_activity_questionnaire">questionnaire</string>
+    <string name="title_activity_pregnant">PregnantActivity</string>
+    <string name="title_activity_specialist">SpecialistActivity</string>
+    <string name="title_activity_healthcare">HealthcareActivity</string>
+    <string name="title_activity_normal_doctor">NormalDoctorActivity</string>
+
+    <string name="legal_disclaimer_title">Legal Disclaimer</string>
+    <string name="legal_disclaimer">This application is to be used as a guide and learning aid only.
+        The instructions herein represent general and accepted principles for assistance and actions during pregnancy only. Each given situation requires an individual judgement and approach, and this application should be used together with national guidelines.
+        The use of this application and its content is at your own risk, and the developer of this application and its content expressly disclaims any liability and/or damage to persons and/or property arising from the use of this application.
+</string>
+    <string name="agree">AGREE</string>
+    <string name="disagree">DISAGREE</string>
+    <string name="title_activity_pregnant_questions">PregnantQuestionsActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
 </resources>
